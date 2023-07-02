@@ -1,0 +1,45 @@
+
+// Redefine variables here to override the default value
+
+$primary: #faa68d;
+$secondary: #64c9bb;
+$success: #98FB98;
+$danger: #df4e6b; //db3959
+$warning: #FFFF90;
+$info: #ADD8E6;
+
+$bg: #fffff0;
+$body-bg: #fffff0;
+// $link-color: #007557;
+
+.left-image-bg{
+
+  background-image: url(/assets/marshall-amp.png);
+  background-size: cover;
+  height: 30vh;
+
+}
+
+.right-image-bg{
+
+  background-image: url(/assets/les-paul.png);
+  background-size: cover;
+  height: 30vh;
+
+}
+
+// Import functions and variables to merge maps
+
+@import "/node_modules/bootstrap/scss/_functions";
+@import "/node_modules/bootstrap/scss/_variables";
+@import "/node_modules/bootstrap/scss/_mixins";
+
+
+// Merge the maps | structure $final-map: map-merge($old-map, $new-map);
+
+// $theme-colors: map-merge($theme-colors, $extra-colors);
+// $colors: map-merge($colors, $extra-colors);
+
+// Bootstrap import
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';
